@@ -1,8 +1,9 @@
-gnome-initial-setup (47~rc-1) UNRELEASED; urgency=medium
+gnome-initial-setup (47~rc-1) unstable; urgency=medium
 
+  [ Alessandro Astone ]
   * New upstream release
 
- -- Alessandro Astone <alessandro.astone@canonical.com>  Fri, 06 Sep 2024 12:25:04 +0200
+ -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Fri, 06 Sep 2024 16:47:21 +0200
 
 gnome-initial-setup (47~beta-1) unstable; urgency=medium
 
