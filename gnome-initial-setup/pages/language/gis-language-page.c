@@ -189,6 +189,7 @@ update_distro_logo (GisLanguagePage *page)
     const char *id;
     const char *logo;
   } id_to_logo[] = {
+    { "droidian",                       "emblem-droidian" },
     { "debian",                         "emblem-debian" },
     { "fedora",                         "fedora-logo-icon" },
     { "ubuntu",                         "ubuntu-logo-icon" },
