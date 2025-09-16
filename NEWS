@@ -1,3 +1,92 @@
+49.0
+---------
+* Restore minimal desktop file to show app icon [Alessandro, !291]
+* Add spoken levels to the password quality [Sergio, !292]
+
+Contributors:
+- Alessandro Astone
+- Sergio Costas Rodriguez
+
+Translation Updates:
+- Aefgh Threenine [th]
+- Anders Jonsson [sv]
+- Antonio Marin [ro]
+- Artur S0 [ru]
+- Asier Saratsua Garmendia [eu]
+- Ask Hjorth Larsen [da]
+- Aurimas Aurimas Černius [lt]
+- Balázs Úr [hu]
+- Bruce Cowan [en_GB]
+- Christian Kirbach [de]
+- Danial Behzadi [fa]
+- Daniel Mustieles [es]
+- Daniel Rusek [cs]
+- Dušan Kazik [sk]
+- Ega Natha [id]
+- Ekaterine Papava [ka]
+- Emilio Sepúlveda [ia]
+- Emin Tufan Çetin [tr]
+- Fran Diéguez [gl]
+- Francisco Diéguez Souto [gl]
+- Hugo Carvalho [pt]
+- Jiri Grönroos [fi]
+- Jordi Mas i Hernandez [ca]
+- luming zh [zh_CN]
+- Luming Zh [zh_CN]
+- Makoto Sakaguchi [ja]
+- Martin [sl]
+- Matthias Clasen
+- Nathan Follens [nl]
+- Nilton Perim Neto [pt_BR]
+- Piotr Drąg [pl]
+- Quentin PAGÈS [oc]
+- Sabri Ünal [tr]
+- Seong-ho Cho [ko]
+- Sergio Costas Rodriguez
+- Yaron Shahrabani [he]
+- Yuri Chornoivan [uk]
+- Álvaro Burns [pt_BR]
+
+49.beta.1
+---------
+
+* This release will only work with gnome-session 49, due
+  to changes in session orchestration and increased reliance
+  on systemd
+
+* Many accessibility issues have been fixed
+
+* Drop gnome-keyring support. This is no longer used
+
+* Changes:
+  - !277 Adapt to systemd-only gnome-session and GDM dynamic users
+  - !278 a11y: Notify bad username
+  - !280 a11y: Make local user page accessible
+  - !281 a11y: Add accessibility to the password page
+  - !282 a11y: Add accessibility to the language selection page
+  - !283 a11y: Add accessibility support to the keyboard page
+  - !284 a11y: some extra accessibility to the Summary page
+  - !285 a11y: Add accessibility to parental controls page
+  - !286 a11y: read description in location services
+  - !287 a11y: add accessibility to the Timezone page
+  - !289 Remove integration with keyring
+
+* Translation updates:
+  - Arabic (Ahmed Najmawi)
+  - Serbian (Милош Поповић)
+
+
+49.alpha
+-----
+
+* data: Drop dependency on Wacom g-s-d plugin [Jordan; !279]
+
+Contributors:
+  Jordan Petridis
+
+Translators:
+  Cheng-Chia Tseng [zh_TW], Iverson Briones [fil], Makoto Sakaguchi [ja]
+
 48.1
 ----
 
