@@ -2,14 +2,14 @@
 # Copyright (C) 2012 gnome-initial-setup's COPYRIGHT HOLDER
 # This file is distributed under the same license as the gnome-initial-setup package.
 # Arash Mousavi <mousavi.arash@gmail.com>, 2012-2017.
-# Danial Behzadi <dani.behzi@ubuntu.com>, 2018-2024.
+# Danial Behzadi <dani.behzi@ubuntu.com>, 2018-2025.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-initial-setup master\n"
 "Report-Msgid-Bugs-To: https://gitlab.gnome.org/GNOME/gnome-initial-setup/issues/\n"
-"POT-Creation-Date: 2024-09-30 15:22+0000\n"
-"PO-Revision-Date: 2024-09-30 19:18+0330\n"
+"POT-Creation-Date: 2025-09-04 12:15+0000\n"
+"PO-Revision-Date: 2025-09-04 16:37+0330\n"
 "Last-Translator: Danial Behzadi <dani.behzi@ubuntu.com>\n"
 "Language-Team: Persian\n"
 "Language: fa\n"
@@ -17,10 +17,9 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 3.4.4\n"
+"X-Generator: Poedit 3.7\n"
 
-#: data/gnome-initial-setup-first-login.desktop.in.in:3
-#: data/gnome-initial-setup.desktop.in.in:3 gnome-initial-setup/gis-driver.c:866
+#: data/gnome-initial-setup.desktop.in.in:2 gnome-initial-setup/gis-driver.c:869
 msgid "Initial Setup"
 msgstr "برپایی نخستین"
 
@@ -93,7 +92,7 @@ msgid "_Domain"
 msgstr "_دامنه"
 
 #: gnome-initial-setup/pages/account/gis-account-page-enterprise.ui:40
-#: gnome-initial-setup/pages/account/gis-account-page-local.ui:100
+#: gnome-initial-setup/pages/account/gis-account-page-local.ui:104
 msgid "_Username"
 msgstr "_نام‌کاربری"
 
@@ -136,16 +135,16 @@ msgstr "گذرواژهٔ مدیر"
 msgid "C_ontinue"
 msgstr "ا_دامه"
 
-#: gnome-initial-setup/pages/account/gis-account-page-local.c:319
+#: gnome-initial-setup/pages/account/gis-account-page-local.c:321
 msgid "We need a few details to complete setup."
 msgstr "برای کامل کردن راه‌اندازی نیاز به کمی جزئیات داریم."
 
-#: gnome-initial-setup/pages/account/gis-account-page-local.c:474
+#: gnome-initial-setup/pages/account/gis-account-page-local.c:476
 msgid "Administrator"
 msgstr "مدیر"
 
-#: gnome-initial-setup/pages/account/gis-account-page-local.c:480
-#: gnome-initial-setup/pages/account/gis-account-page-local.c:523
+#: gnome-initial-setup/pages/account/gis-account-page-local.c:482
+#: gnome-initial-setup/pages/account/gis-account-page-local.c:525
 #, c-format
 msgid "Failed to create user '%s': "
 msgstr "شکست در ایجاد کاربر «%s»: "
@@ -167,15 +166,15 @@ msgstr "دربارهٔ شما"
 msgid "Please provide a name and username. You can choose a picture too."
 msgstr "لطفاً یک نام و نام‌کاربری وارد کنید. می‌توانید تصویری هم برگزینید."
 
-#: gnome-initial-setup/pages/account/gis-account-page-local.ui:77
+#: gnome-initial-setup/pages/account/gis-account-page-local.ui:81
 msgid "_Full Name"
 msgstr "_نام کامل"
 
-#: gnome-initial-setup/pages/account/gis-account-page-local.ui:152
+#: gnome-initial-setup/pages/account/gis-account-page-local.ui:159
 msgid "Set up _parental controls for this user"
 msgstr "برپایی واپایش‌های _والدین برای این کاربر"
 
-#: gnome-initial-setup/pages/account/gis-account-page-local.ui:158
+#: gnome-initial-setup/pages/account/gis-account-page-local.ui:165
 msgid "For use by a parent or supervisor, who must set up their own password."
 msgstr "برای استفاده به دست یک والد یا سرپرست که باید گذرواژهٔ خودش را برپا کند."
 
@@ -239,28 +238,28 @@ msgstr ""
 msgid "This will be used to name your home folder and can’t be changed."
 msgstr "این نام برای شاخهٔ خانگیتان استفاده شده و قابل تغییر نخواهد بود."
 
-#: gnome-initial-setup/pages/keyboard/cc-input-chooser.c:243
+#: gnome-initial-setup/pages/keyboard/cc-input-chooser.c:257
 msgid "Preview"
 msgstr "پیش‌نمایش"
 
-#: gnome-initial-setup/pages/keyboard/cc-input-chooser.c:307
-#: gnome-initial-setup/pages/language/cc-language-chooser.c:222
+#: gnome-initial-setup/pages/keyboard/cc-input-chooser.c:325
+#: gnome-initial-setup/pages/language/cc-language-chooser.c:242
 msgid "More…"
 msgstr "بیش‌تر…"
 
 #. Translators: a search for input methods or keyboard layouts
 #. * did not yield any results
 #.
-#: gnome-initial-setup/pages/keyboard/cc-input-chooser.c:329
+#: gnome-initial-setup/pages/keyboard/cc-input-chooser.c:347
 msgid "No inputs found"
 msgstr "ورودی‌ای پیدا نشد"
 
 #: gnome-initial-setup/pages/keyboard/gis-keyboard-page.c:502
-#: gnome-initial-setup/pages/keyboard/gis-keyboard-page.ui:15
+#: gnome-initial-setup/pages/keyboard/gis-keyboard-page.ui:16
 msgid "Typing"
 msgstr "تایپ"
 
-#: gnome-initial-setup/pages/keyboard/gis-keyboard-page.ui:16
+#: gnome-initial-setup/pages/keyboard/gis-keyboard-page.ui:17
 msgid "Select your keyboard layout or an input method."
 msgstr "چیدمان صفحه‌کلیدتان یا روشی ورودی را برگزینید."
 
@@ -268,13 +267,18 @@ msgstr "چیدمان صفحه‌کلیدتان یا روشی ورودی را ب�
 msgid "Search keyboards and input methods"
 msgstr "جست‌وجوی صفحه‌کلیدها و روش‌های ورودی"
 
-#: gnome-initial-setup/pages/language/cc-language-chooser.c:242
+#: gnome-initial-setup/pages/language/cc-language-chooser.c:262
 msgid "No languages found"
 msgstr "هیچ زبانی پیدا نشد"
 
-#: gnome-initial-setup/pages/language/gis-language-page.c:261
+#: gnome-initial-setup/pages/language/gis-language-page.c:268
+#: gnome-initial-setup/pages/language/gis-language-page.ui:14
 msgid "Welcome"
 msgstr "خوش‌آمدید"
+
+#: gnome-initial-setup/pages/language/gis-language-page.ui:41
+msgid "Select a language from the list, or search an specific language."
+msgstr "گزینش زبانی از سیاهه یا جست‌وجو برای زبانی خاص."
 
 #. Translators: This is meant to be a warm, engaging welcome message,
 #. * like greeting somebody at the door. If the exclamation mark is not
@@ -283,6 +287,14 @@ msgstr "خوش‌آمدید"
 #: gnome-initial-setup/pages/language/gis-welcome-widget.c:132
 msgid "Welcome!"
 msgstr "خوش‌آمدید!"
+
+#: gnome-initial-setup/pages/language/language-chooser.ui:11
+msgid "Search languages"
+msgstr "جست‌وجوی زبان‌ها"
+
+#: gnome-initial-setup/pages/language/language-chooser.ui:21
+msgid "Available languages"
+msgstr "زبان‌های موجود"
 
 #: gnome-initial-setup/pages/network/gis-network-page.c:297
 msgctxt "Wireless access point"
@@ -313,11 +325,11 @@ msgstr ""
 "وصل شدن به اینترنت کمک می‌کند تا اطّلاعات و کاره‌های جدید و دیگر ارتقاها را بگیرید. "
 "همچنین به تنظیم خودکار زمان و موقعیتتان کمک می‌کند."
 
-#: gnome-initial-setup/pages/network/gis-network-page.ui:56
+#: gnome-initial-setup/pages/network/gis-network-page.ui:57
 msgid "No wireless available"
 msgstr "هیچ شبکهٔ بی‌سیمی در دسترس نیست"
 
-#: gnome-initial-setup/pages/network/gis-network-page.ui:69
+#: gnome-initial-setup/pages/network/gis-network-page.ui:70
 msgid "Turn On"
 msgstr "روشن کردن"
 
@@ -336,30 +348,36 @@ msgid "Parental Controls"
 msgstr "واپایش‌های والدین"
 
 #. Translators: The placeholder is for the user’s full name.
-#: gnome-initial-setup/pages/password/gis-password-page.c:94
+#: gnome-initial-setup/pages/password/gis-password-page.c:92
 #, c-format
 msgid "Set a Password for %s"
 msgstr "برپایی یک گذرواژه برای %s"
 
-#: gnome-initial-setup/pages/password/gis-password-page.c:96
+#: gnome-initial-setup/pages/password/gis-password-page.c:94
 msgid "Be careful not to lose your password."
 msgstr "مراقب باشید گذرواژه‌تان را گم نکنید."
 
-#: gnome-initial-setup/pages/password/gis-password-page.c:101
+#: gnome-initial-setup/pages/password/gis-password-page.c:99
 msgid "Set a Parent Password"
 msgstr "برپایی یک گذرواژهٔ والد"
 
 #. Translators: The placeholder is the full name of the child user on the system.
-#: gnome-initial-setup/pages/password/gis-password-page.c:103
+#: gnome-initial-setup/pages/password/gis-password-page.c:101
 #, c-format
 msgid "This password will control access to the parental controls for %s."
 msgstr "این گذرواژه، دسترسی به واپایش‌های والدین را برای %s وامی‌پاید."
 
-#: gnome-initial-setup/pages/password/gis-password-page.c:246
+#: gnome-initial-setup/pages/password/gis-password-page.c:223
+#, c-format
+msgid "Password strength: %s."
+msgstr "قدرت گذرواژه: %s."
+
+#: gnome-initial-setup/pages/password/gis-password-page.c:249
+#: gnome-initial-setup/pages/password/gis-password-page.c:251
 msgid "The passwords do not match."
 msgstr "گذرواژه‌ها مطابقت ندارند."
 
-#: gnome-initial-setup/pages/password/gis-password-page.c:421
+#: gnome-initial-setup/pages/password/gis-password-page.c:430
 msgid "Password"
 msgstr "گذرواژه"
 
@@ -489,6 +507,27 @@ msgid ""
 "Adding more letters, numbers and punctuation will make the password stronger."
 msgstr "افزودن حروف، اعداد و نشانه‌های بیش‌تر، گذرواژه را قوی‌تر می‌کند."
 
+#. TRANSLATORS: this string describes a password as being poor
+#: gnome-initial-setup/pages/password/pw-utils.c:146
+msgid "poor"
+msgstr "بد"
+
+#. TRANSLATORS: this string describes a password as being weak
+#: gnome-initial-setup/pages/password/pw-utils.c:150
+msgid "weak"
+msgstr "ضعیف"
+
+#. TRANSLATORS: this string describes a password as being strong
+#: gnome-initial-setup/pages/password/pw-utils.c:154
+#: gnome-initial-setup/pages/password/pw-utils.c:157
+msgid "strong"
+msgstr "قوی"
+
+#. TRANSLATORS: this string describes a password as being excellent
+#: gnome-initial-setup/pages/password/pw-utils.c:161
+msgid "excellent"
+msgstr "عالی"
+
 #. Translators: the first parameter here is the name of a distribution,
 #. * like "Fedora" or "Ubuntu".
 #.
@@ -518,19 +557,19 @@ msgid "Allows apps to determine your geographical location."
 msgstr "می‌گذارد کاره‌ها از مکان جغرافیاییتان آگاه شوند."
 
 #: gnome-initial-setup/pages/privacy/gis-privacy-page.c:171
-#: gnome-initial-setup/pages/privacy/gis-privacy-page.ui:14
+#: gnome-initial-setup/pages/privacy/gis-privacy-page.ui:15
 msgid "Privacy"
 msgstr "محرمانگی"
 
-#: gnome-initial-setup/pages/privacy/gis-privacy-page.ui:27
+#: gnome-initial-setup/pages/privacy/gis-privacy-page.ui:33
 msgid "Location Services"
 msgstr "خدمات مکانی"
 
-#: gnome-initial-setup/pages/privacy/gis-privacy-page.ui:59
+#: gnome-initial-setup/pages/privacy/gis-privacy-page.ui:65
 msgid "Automatic Problem Reporting"
 msgstr "گزارش خودکار اشکالات"
 
-#: gnome-initial-setup/pages/privacy/gis-privacy-page.ui:91
+#: gnome-initial-setup/pages/privacy/gis-privacy-page.ui:97
 msgid "Privacy controls can be changed at any time from the Settings app."
 msgstr "واپایش‌های محرمانگی می‌توانند در هر زمانی از کارهٔ تنظیمات تغییر یابند."
 
@@ -596,7 +635,7 @@ msgstr "%s آمادهٔ استفاده است."
 msgid "Setup Complete"
 msgstr "برپا سازی کامل شد"
 
-#: gnome-initial-setup/pages/summary/gis-summary-page.ui:7
+#: gnome-initial-setup/pages/summary/gis-summary-page.ui:8
 msgid "All done!"
 msgstr "انجام شد!"
 
@@ -609,13 +648,8 @@ msgstr "جست‌وجوی شهرها"
 #. * 'London, United Kingdom'
 #. * You shouldn't need to translate this string unless the language has a different comma.
 #.
-#. <location> with no parent <city>
-#. Translators: this is the name of a location followed by a region, for example:
-#. * 'London, United Kingdom'
-#. * You shouldn't need to translate this string unless the language has a different comma.
-#.
-#: gnome-initial-setup/pages/timezone/gis-location-entry.c:549
-#: gnome-initial-setup/pages/timezone/gis-location-entry.c:577
+#: gnome-initial-setup/pages/timezone/gis-location-entry.c:557
+#: gnome-initial-setup/pages/timezone/gis-location-entry.c:589
 #, c-format
 msgid "%s, %s"
 msgstr "%s، %s"
@@ -651,12 +685,17 @@ msgctxt "timezone map"
 msgid "%s (%s)"
 msgstr "%s (%s)"
 
-#: gnome-initial-setup/pages/timezone/gis-timezone-page.c:467
-#: gnome-initial-setup/pages/timezone/gis-timezone-page.ui:12
+#: gnome-initial-setup/pages/timezone/gis-timezone-page.c:315
+#, c-format
+msgid "Current timezone: %s at %s; current time: %s"
+msgstr "ناحیهٔ زمانی کنونی: %s در %s. زمان کنونی: %s"
+
+#: gnome-initial-setup/pages/timezone/gis-timezone-page.c:454
+#: gnome-initial-setup/pages/timezone/gis-timezone-page.ui:16
 msgid "Time Zone"
 msgstr "منظقهٔ زمانی"
 
-#: gnome-initial-setup/pages/timezone/gis-timezone-page.ui:13
+#: gnome-initial-setup/pages/timezone/gis-timezone-page.ui:17
 msgid ""
 "The time zone will be set automatically if your location can be found. You can "
 "also search for a city to set it yourself."
@@ -664,7 +703,7 @@ msgstr ""
 "منطقه زمانی چنانچه امکان پیدا کردن مکان شما باشد، بطور خودکار تنظیم می‌شود. شما "
 "همچنین می‌توانید یک شهر را برای تنظیم دستی جست‌وجو کنید."
 
-#: gnome-initial-setup/pages/timezone/gis-timezone-page.ui:44
+#: gnome-initial-setup/pages/timezone/gis-timezone-page.ui:49
 msgid "Please search for a nearby city"
 msgstr "لطفاًً برای شهری نزدیک جست‌وجو کنید"
 
@@ -990,10 +1029,6 @@ msgstr "نصب ${PRETTY_NAME}"
 #~ msgctxt "Password strength"
 #~ msgid "Good"
 #~ msgstr "خوب"
-
-#~ msgctxt "Password strength"
-#~ msgid "Strong"
-#~ msgstr "قوی"
 
 #~ msgid "Login"
 #~ msgstr "ورود به سیستم"
