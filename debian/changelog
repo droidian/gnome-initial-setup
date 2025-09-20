@@ -1,8 +1,10 @@
-gnome-initial-setup (49.0-1) UNRELEASED; urgency=medium
+gnome-initial-setup (49.0-1) experimental; urgency=medium
 
   * New upstream release
+  * Bump Standards Version to 4.7.2
+  * Remove obsolete Rules-Requires-Root: no field
 
- -- Jeremy Bícha <jbicha@ubuntu.com>  Tue, 16 Sep 2025 19:12:45 -0400
+ -- Jeremy Bícha <jbicha@ubuntu.com>  Sat, 20 Sep 2025 12:10:47 -0400
 
 gnome-initial-setup (48.1-1) unstable; urgency=medium
 
