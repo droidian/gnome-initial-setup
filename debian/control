@@ -46,7 +46,6 @@ Package: gnome-initial-setup
 Architecture: linux-any
 Depends: adduser,
          gnome-settings-daemon (>= 3.24),
-         pkexec (>= 0.103),
          polkitd (>= 0.103),
          tecla (>= 45~rc),
          ${logo:Depends},
