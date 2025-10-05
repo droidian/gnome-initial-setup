@@ -7,6 +7,7 @@ Uploaders: Jeremy Bícha <jbicha@ubuntu.com>,
            Marco Trevisan (Treviño) <marco@ubuntu.com>,
            Sebastien Bacher <seb128@debian.org>
 Build-Depends: debhelper-compat (= 13),
+               dh-sequence-installsysusers,
                dconf-cli,
                gsettings-desktop-schemas-dev (>= 3.37.1),
                itstool,
@@ -44,8 +45,7 @@ Homepage: https://git.gnome.org/browse/gnome-initial-setup/
 
 Package: gnome-initial-setup
 Architecture: linux-any
-Depends: adduser,
-         gnome-settings-daemon (>= 3.24),
+Depends: gnome-settings-daemon (>= 3.24),
          polkitd (>= 0.103),
          tecla (>= 45~rc),
          ${logo:Depends},
