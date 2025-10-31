@@ -57,6 +57,7 @@ Recommends: accountsservice,
             gnome-keyring,
             ${malcontent:Recommends}
 Suggests: gdm3
+Breaks: gnome-session-bin (<< 49)
 Description: Initial GNOME system setup helper
  After acquiring or installing a new system there are a few essential things
  to set up before use. GNOME Initial Setup aims to provide a simple, easy,
