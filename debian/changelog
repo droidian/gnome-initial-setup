@@ -1,11 +1,11 @@
-gnome-initial-setup (49.0-4) UNRELEASED; urgency=medium
+gnome-initial-setup (49.0-4) unstable; urgency=medium
 
   * debian/{rules,control}: Enable malcontent in ubuntu.
     Simplify the dependencies code, since ubuntu can now depend on
     malcontent, being it in main repository
   * d/p: Add early support for malcontent-0.14
 
- -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Thu, 11 Dec 2025 06:25:10 +0100
+ -- Marco Trevisan (Treviño) <marco@ubuntu.com>  Thu, 11 Dec 2025 06:26:35 +0100
 
 gnome-initial-setup (49.0-3) unstable; urgency=medium
 
