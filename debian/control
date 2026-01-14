@@ -53,7 +53,7 @@ Depends: gnome-settings-daemon (>= 3.24),
          ${shlibs:Depends}
 Recommends: accountsservice,
             geoclue-2.0 (>= 2.6.0),
-            malcontent [amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x hppa loong64 powerpc ppc64 x32],
+            ${malcontent:Recommends}
 Suggests: gdm3
 Breaks: gnome-session-bin (<< 49)
 Description: Initial GNOME system setup helper

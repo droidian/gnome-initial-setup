@@ -6,11 +6,15 @@ export DEB_LDFLAGS_MAINT_APPEND = -Wl,-z,defs
 %:
 	dh $@
 
-# malcontent is only built on some arches
+# malcontent it not in Ubuntu main yet & is only built on some arches
+ifeq (yes,$(shell dpkg-vendor --derives-from Ubuntu && echo yes))
+PARENTAL_CONTROL := -Dparental_controls=disabled
+else
 ifneq (,$(filter $(DEB_HOST_ARCH), amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x hppa loong64 powerpc ppc64 x32))
 PARENTAL_CONTROL := -Dparental_controls=enabled
 else
 PARENTAL_CONTROL := -Dparental_controls=disabled
+endif
 endif
 
 override_dh_auto_configure:
@@ -25,9 +29,11 @@ execute_after_dh_install:
 endif
 
 # Depend on the appropriate package for the Welcome logo
+# And don't add malcontent Recommends in Ubuntu
 override_dh_gencontrol:
 ifeq (yes,$(shell dpkg-vendor --derives-from Ubuntu && echo yes))
 	dh_gencontrol -- -Vlogo:Depends='gnome-control-center-data'
 else
-	dh_gencontrol -- -Vlogo:Depends='desktop-base'
+	dh_gencontrol -- -Vlogo:Depends='desktop-base' \
+	-Vmalcontent:Recommends='malcontent [amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x hppa loong64 powerpc ppc64 x32]'
 endif
