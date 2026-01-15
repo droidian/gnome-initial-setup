@@ -1,3 +1,9 @@
+gnome-initial-setup (50~alpha-1) UNRELEASED; urgency=medium
+
+  * New upstream release
+
+ -- Alessandro Astone <alessandro.astone@canonical.com>  Thu, 15 Jan 2026 17:48:33 +0100
+
 gnome-initial-setup (49.0-4) unstable; urgency=medium
 
   * debian/{rules,control}: Enable malcontent in ubuntu.
