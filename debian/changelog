@@ -1,8 +1,13 @@
 gnome-initial-setup (50~alpha-1) UNRELEASED; urgency=medium
 
+  * d/control: Drop unused dependency on gnome-keyring
+  * d/maintscript: Remove obsolete autostart desktop files
+  * Revert "debian/{rules,control}: Enable malcontent in ubuntu"
   * New upstream release
+  * d/p/parental-controls: Drop patch applied upstream
+  * d/control: Add Breaks gnome-shell-common (<< 50~)
 
- -- Alessandro Astone <alessandro.astone@canonical.com>  Thu, 15 Jan 2026 17:48:33 +0100
+ -- Alessandro Astone <alessandro.astone@canonical.com>  Thu, 15 Jan 2026 17:50:51 +0100
 
 gnome-initial-setup (49.0-4) unstable; urgency=medium
 
