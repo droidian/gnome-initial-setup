@@ -55,7 +55,8 @@ Recommends: accountsservice,
             geoclue-2.0 (>= 2.6.0),
             ${malcontent:Recommends}
 Suggests: gdm3
-Breaks: gnome-session-bin (<< 49)
+Breaks: gnome-session-bin (<< 49),
+        gnome-shell-common (<< 50~),
 Description: Initial GNOME system setup helper
  After acquiring or installing a new system there are a few essential things
  to set up before use. GNOME Initial Setup aims to provide a simple, easy,
