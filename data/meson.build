@@ -65,3 +65,5 @@ install_data('@0@.session'.format(meson.project_name()), install_dir: session_di
 
 mode_dir = join_paths(data_dir, 'gnome-shell', 'modes')
 install_data('initial-setup.json', install_dir: mode_dir)
+
+install_data('gnome-initial-setup-set-debian-keyboard', install_dir: libexec_dir)
