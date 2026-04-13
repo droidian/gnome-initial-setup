@@ -42,11 +42,11 @@ index e0d8b10..92faae6 100644
          return undefined;
 diff --git a/data/gnome-initial-setup-set-debian-keyboard b/data/gnome-initial-setup-set-debian-keyboard
 new file mode 100644
-index 0000000..5d4604f
+index 0000000..5667378
 --- /dev/null
 +++ b/data/gnome-initial-setup-set-debian-keyboard
 @@ -0,0 +1,61 @@
-+#!/usr/bin/sh
++#!/bin/sh
 +
 +set -eu
 +
